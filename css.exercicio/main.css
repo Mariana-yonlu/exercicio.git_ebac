@@ -1,0 +1,165 @@
+*{
+    box-sizing: border-box;
+    margin-top: auto;
+    margin-left: auto;
+    padding: 0%;
+}
+h1{
+    font-size: 38px;
+}
+body > header{
+    background-color: rgb(67, 0, 112);
+    padding: 20px 0;
+}
+header .container{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+}
+header .container h1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(246, 180, 12);
+}
+header li{
+    display:inline;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right:20px;
+}
+header li a{
+    color: rgb(255, 204, 127);
+    text-decoration: none;
+}
+.container{
+    width: 1366;
+    margin: 0 auto;
+}
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img{
+    /*height: 180px;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    width:80%;   
+}
+.articles article{
+    width:30%; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+section{
+    padding: 16px;
+}
+section h2, 
+.articles article{
+    margin-bottom: 16px;    
+}
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8PX;
+}
+.articles article a{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    background-color: rgb(255, 35, 237);
+    color: aquamarine;
+    padding: 8px;
+    display: inline-block;
+    text-decoration:none ;
+}
+.articles article p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.articles article a:hover{
+    text-decoration: underline;
+}
+.articles article h3{
+    font-size: 24px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+section h2{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 32px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans'; 
+}
+#economia h2{
+    color: rgb(255, 30, 0);
+}
+#tecnologia h2 {
+    color: rgb(115, 227, 255);
+}
+#tecnologia h3{
+    color: rgb(110, 202, 255);
+}
+#tecnologia header{
+    color: aquamarine;
+}
+#tecnologia p{
+    color: rgb(157, 248, 255);
+}
+#tecnologia{
+    background-color: rgba(16, 2, 68, 0.623);
+}
+#tecnologia .articles article a{
+    color: aquamarine;
+    background-color:rgba(0, 110, 255, 0.226)
+}
+#entretenimento header{
+    color:aliceblue;
+}
+#entretenimento{
+    background-color: rgba(162, 0, 255, 0.342);
+}
+#entretenimento .articles article a{
+    color: rgb(255, 255, 255);
+}
+#entretenimento p{
+    color: rgb(30, 9, 80);
+}
+#entretenimento h2{
+    color: rgb(63, 0, 114);
+}
+#entretenimento h3{
+    color: rgb(175, 0, 245);
+}
+#economia .articles article a{
+    background-color: rgb(221, 63, 15);
+    color: rgb(255, 209, 197);
+}
+#economia header{
+    color:brown;
+}
+#economia{
+    background-color: rgba(255, 178, 12, 0.555);
+}
+#economia h3{
+    color: rgb(185, 59, 0);
+}
+#economia p{
+    color: rgb(184, 84, 2);
+}
+#sports h2{
+    color: rgb(0, 124, 62);
+}
+#sports{
+    background-color: aquamarine;
+}
+#sports h3{
+    color: rgb(0, 110, 59);
+}
+#sports p{
+    color: rgb(0, 39, 39);
+}
+#sports header{
+    color:rgb(0, 60, 109);
+}
+footer{
+    color: rgb(72, 8, 133);
+}
+footer &copy{
+    color: aquamarine;
+}
